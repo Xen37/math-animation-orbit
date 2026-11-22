@@ -29,7 +29,7 @@ function moving(){
 function instructions(){
     fill(0);
     text("speed:  " + Math.trunc(speed * 100), 165, 50);
-    text("move your mouse horizontal to speed up the orbiting",55, 330 );
+    text("move your mouse horizontal to speed up the orbit",55, 330 );
     noFill();
 
     strokeWeight(5);
